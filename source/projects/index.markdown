@@ -13,5 +13,6 @@ layout: default
     <h3>Startrack</h3>
     <p>An opensource tracker used by Ruby on Rio Group for our projects.</p>
     <p><a href='http://startrack.herokuapp.com/' target='_blank'>http://startrack.herokuapp.com/</a></p>
+    <p><a href='https://github.com/rubyonrio/startrack/' target='_blank'>https://github.com/rubyonrio/startrack/</a></p>
   </article>
 </div>
