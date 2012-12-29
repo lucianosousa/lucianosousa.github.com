@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A divida com a comunidade
+title: A dívida com a comunidade
 tags: []
 status: publish
 type: post
