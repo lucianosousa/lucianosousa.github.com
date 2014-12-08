@@ -1,0 +1,59 @@
+# Build settings
+markdown: redcarpet
+highlighter: pygments
+
+# Site settings
+title: "Luciano Sousa"
+description: "tech and another stuffs"
+
+email: ls@lucianosousa.net
+#blog logo
+logo: "/assets/images/df_logo.png"
+# blog cover
+cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
+
+name: 'Luciano Sousa'
+author: 'Luciano Sousa'
+author_image: "/assets/images/author.png"
+
+paginate:	5
+
+url: "http://lucianosousa.net" # the base hostname & protocol for your site
+baseurl: ""
+
+# Disqus Comments
+disqus_short_name: lucianosousa
+disqus_show_comment_count: false
+
+# Google Analytics
+google_analytics_tracking_id: UA-37322061-1
+
+# social icons and sharing options
+social:
+  - icon:	twitter
+    url:	https://twitter.com/lucianosousa
+    desc: Follow me on twitter
+    share_url: http://twitter.com/share
+    share_title: ?text=
+    share_link: "&amp;url="
+
+#  - icon:	facebook
+#    url:	https://facebook.com/???
+#    desc: Connect with me facebook
+#    share_url: //www.facebook.com/sharer.php
+#    share_title: ?t=
+#    share_link: "&amp;u="
+
+  - icon:	github
+    url:	https://github.com/lucianosousa
+    desc:	Fork me on github
+    share_url:
+    share_title:
+    share_link:
+
+#  - icon:	google-plus
+#    url:	https://google.com/???
+#    desc:	Add me on google+
+#    share_url:
+#    share_title:
+#    share_link:
