@@ -55,7 +55,7 @@ Comparison:
 Em Rails, você pode utilizar os 3 métodos acima para fazer essa query:
 
 - `where().first`
-- `find_by_name` (supondo que o nome do seu atributo é `name`
+- `find_by_name` (supondo que o nome do seu atributo é `name`)
 - `find_by(name: nome_a_ser_buscado)`
 
 O método `where().first` é o mais encontrado em projetos antigos.
