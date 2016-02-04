@@ -10,7 +10,7 @@ Começo hoje uma série de dicas de como melhorar a performance de suas aplicaç
 A primeira dica vem de uma das mais críticas partes de uma aplicação, acesso ao banco de dados.
 
 Minha primeira dica é mostrar a forma mais performática de fazer uma query de registro único.
-No meu exemplo, eu quero buscar um cliente com o nome `Luciano Sousa` em um banco Postgres com 76496 registros.
+No meu exemplo, eu quero buscar um cliente com o nome `Luciano Sousa` em um banco Mysql com 76496 registros.
 
 ```
 $ ruby benchmark1.rb

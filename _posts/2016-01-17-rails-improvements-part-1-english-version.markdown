@@ -11,7 +11,7 @@ The first tip I give you is about one of the most critic part in a web app, data
 
 My first advice, is to show you the quickest way to do a query by a unique register.
 
-In my first example, I want to find a client with name `Luciano Sousa` in a local Postgresql database with 76496 registros.
+In my first example, I want to find a client with name `Luciano Sousa` in a local Mysql database with 76496 registros.
 
 ```
 $ ruby benchmark1.rb
