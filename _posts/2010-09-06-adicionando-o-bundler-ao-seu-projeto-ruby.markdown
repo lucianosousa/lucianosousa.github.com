@@ -20,7 +20,7 @@ Ao baixar/clonar seu projeto para algum computador diferente do normal, você te
 
 Para instalá-lo, <strong>digite</strong> no seu terminal/prompt:
 
-```
+~~~~~~~~
 bash-3.1$ gem install bundler
 ```
 

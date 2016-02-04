@@ -12,7 +12,7 @@ A primeira dica vem de uma das mais críticas partes de uma aplicação, acesso 
 Minha primeira dica é mostrar a forma mais performática de fazer uma query de registro único.
 No meu exemplo, eu quero buscar um cliente com o nome `Luciano Sousa` em um banco Mysql com 76496 registros.
 
-```
+~~~~~~~~
 $ ruby benchmark1.rb
 Calculating -------------------------------------
          where_first   130.000  i/100ms
@@ -27,13 +27,13 @@ Comparison:
              find_by:     2330.4 i/s
         find_by_name:     2303.5 i/s - 1.01x slower
          where_first:     1399.6 i/s - 1.67x slower
-```
+~~~~~~~~
 
 {% gist lucianosousa/5f188167b1f907e0f34f %}
 
 A seguir, um teste utilizando o banco de dados sqlite em memória
 
-```
+~~~~~~~~
 $ ruby benchmark2.rb
 Calculating -------------------------------------
         where_first   332.000  i/100ms
@@ -48,7 +48,7 @@ Comparison:
         find_by:       9345.0 i/s
         find_by_name:  9193.6 i/s - 1.02x slower
         where_first:   3415.8 i/s - 2.74x slower
-```
+~~~~~~~~
 
 {% gist lucianosousa/642e182eec4f6da356cb %}
 
