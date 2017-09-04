@@ -35,7 +35,7 @@ Muita gente me pergunta por que e como eu faço isso. Os motivos estão acima, o
 
 9) Foco - Facebook/ twitter e afins podem acabar com sua vida em relação a suas tarefas, se você tem sérios problemas de concentração como eu, recomendo uma pequena configuração no seu arquivo de hosts, sem mais:
 
-<img src='/assets/images/hack.png'></img>
+<img src='/assets/images/hack.png'/>
 
 No fundo, o maior problema que podemos ter trabalhando remotamente somos nós mesmos. Foco e boa comunicação com a equipe resolvem 99,9% dos problemas, os outros 0,1% são falta de internet.
 

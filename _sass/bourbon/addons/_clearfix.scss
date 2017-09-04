@@ -1,18 +1,23 @@
-// The clearfix mixin provides an easy way to contain floats
+// Modern micro clearfix provides an easy way to contain floats without adding additional markup.
 //
 // Example usage:
-// .wrapper {
-//   @include clearfix;
-// }
+//
+//    // Contain all floats within .wrapper
+//    .wrapper {
+//      @include clearfix;
+//      .content,
+//      .sidebar {
+//        float : left;
+//      }
+//    }
 
 @mixin clearfix {
-  &::after {
-    clear: both;
-    content: "";
-    display: table;
+  &:after {
+    content:"";
+    display:table;
+    clear:both;
   }
 }
 
-// Acknowledgements:
-// Thierry Koblentz, cssmojo
-// http://goo.gl/AQWvyH
+// Acknowledgements
+// Beat *that* clearfix: [Thierry Koblentz](http://www.css-101.org/articles/clearfix/latest-new-clearfix-so-far.php)

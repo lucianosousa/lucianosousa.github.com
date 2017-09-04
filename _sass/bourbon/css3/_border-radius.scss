@@ -1,22 +1,22 @@
-// Border Radius (Shorthand)
-// Provides a shorthand syntax to target and add border radii to both corners on one side of a box
-
+//************************************************************************//
+// Shorthand Border-radius mixins
+//************************************************************************//
 @mixin border-top-radius($radii) {
-  border-top-left-radius: $radii;
-  border-top-right-radius: $radii;
-}
-
-@mixin border-right-radius($radii) {
-  border-bottom-right-radius: $radii;
-  border-top-right-radius: $radii;
+  @include prefixer(border-top-left-radius, $radii, spec);
+  @include prefixer(border-top-right-radius, $radii, spec);
 }
 
 @mixin border-bottom-radius($radii) {
-  border-bottom-left-radius: $radii;
-  border-bottom-right-radius: $radii;
+  @include prefixer(border-bottom-left-radius, $radii, spec);
+  @include prefixer(border-bottom-right-radius, $radii, spec);
 }
 
 @mixin border-left-radius($radii) {
-  border-bottom-left-radius: $radii;
-  border-top-left-radius: $radii;
+  @include prefixer(border-top-left-radius, $radii, spec);
+  @include prefixer(border-bottom-left-radius, $radii, spec);
+}
+
+@mixin border-right-radius($radii) {
+  @include prefixer(border-top-right-radius, $radii, spec);
+  @include prefixer(border-bottom-right-radius, $radii, spec);
 }

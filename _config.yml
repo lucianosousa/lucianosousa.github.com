@@ -1,14 +1,19 @@
 # Build settings
-markdown: kramdown
-highlighter: rouge
+gems:
+  - jemoji
+  - jekyll-paginate
 
 # Site settings
 title: "Luciano Sousa"
-description: "tech and another stuffs"
+description: > # this means to ignore newlines until "email:"
+   tech and other stuffs
 
 email: ls@lucianosousa.net
 #blog logo
 logo: "/assets/images/df_logo.png"
+favicon: "/assets/images/favicon.png"
+float_logo: true # true, false (default)
+
 # blog cover
 cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
 
@@ -20,13 +25,13 @@ paginate:	5
 
 url: "http://lucianosousa.net" # the base hostname & protocol for your site
 baseurl: ""
+#used to display twitter cards
+twitter_handle: '@lucianosousa'
 
-# Disqus Comments
-disqus_short_name: lucianosousa
-disqus_show_comment_count: false
+#fill in disqus shortname to use disqus
+disqus: lucianosousa
 
-# Google Analytics
-google_analytics_tracking_id: UA-37322061-1
+google_analytics: UA-37322061-1
 
 # social icons and sharing options
 social:
@@ -37,12 +42,12 @@ social:
     share_title: ?text=
     share_link: "&amp;url="
 
-#  - icon:	facebook
-#    url:	https://facebook.com/???
-#    desc: Connect with me facebook
-#    share_url: //www.facebook.com/sharer.php
-#    share_title: ?t=
-#    share_link: "&amp;u="
+  - icon:	facebook
+    url:	https://facebook.com/lucianosousa
+    desc: Connect with me facebook
+    share_url: https://www.facebook.com/sharer.php
+    share_title: ?t=
+    share_link: "&amp;u="
 
   - icon:	github
     url:	https://github.com/lucianosousa
@@ -57,7 +62,3 @@ social:
 #    share_url:
 #    share_title:
 #    share_link:
-
-gems:
-  - jekyll-gist
-  - jekyll-paginate

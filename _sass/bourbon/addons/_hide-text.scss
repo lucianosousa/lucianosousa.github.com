@@ -1,9 +1,7 @@
-@mixin hide-text($height: 1em) {
-  height: $height;
-  line-height: 1.5;
+@mixin hide-text {
   overflow: hidden;
 
-  &::before {
+  &:before {
     content: "";
     display: block;
     width: 0;

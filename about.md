@@ -4,6 +4,6 @@ title: About
 permalink: /about/
 ---
 
-Hello, My name is Luciano Sousa. I’m 28 year-old brazilian software developer.
+Hello, My name is Luciano Sousa. I’m a 31 years old brazilian software developer.
 
-I love create new things and programming, then, I realized: Why not used both things to build a better world. So, I’m here…
+I love to create new things and programming stuffs, then, I realized: Why not use both to build a better world. So, I’m here…
