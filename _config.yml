@@ -1,7 +1,8 @@
 # Build settings
-gems:
+plugins:
   - jemoji
   - jekyll-paginate
+  - jekyll-gist
 
 # Site settings
 title: "Luciano Sousa"
